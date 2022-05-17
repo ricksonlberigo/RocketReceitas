@@ -1,0 +1,110 @@
+/* ===== RESETS ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ===== VARIABLES ========== */
+:root {
+    font-size: 62.5%;
+
+    --bg-page: #EAEAEA;
+    --bg-content: #FFFFFF;
+    --title-color: #1B1B1B;
+    --footer-legend-color: #8F8F8F;
+    --text-color: #39393A;
+}
+
+/* ===== GERAL ========== */
+body {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    background: var(--bg-page);
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+section h2 {
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+    text-align: center;
+}
+
+/* ===== UTILITIES CLASS ========== */
+.content {
+    background: var(--bg-content);
+    width: 50%;
+    margin: 3rem auto;
+    padding: 6rem;
+    border-radius: .6rem;
+}
+
+/* ===== HEADER ========== */
+header {
+    margin-bottom: 4rem;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+}
+
+header img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+header figcaption {
+    text-align: right;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    color: var(--footer-legend-color);
+}
+
+
+/* ===== INGREDIENTS ========== */
+.ingredients ul li + li {
+    margin-top: 1.6rem;
+    font-size: 1.6rem;
+}
+
+/* ===== PREPARATIONS ========== */
+
+.preparations h2 {
+    text-align: center;
+}
+
+.preparations ol li + li {
+    margin-top: 1.6rem;
+}
+
+/* ===== INFORMATIONS ========== */
+.informations p {
+    color: var(--title-color);
+}
+
+/* ===== FOOTER ========== */
+footer p {
+    text-align: center;
+    padding: 2rem;
+}
